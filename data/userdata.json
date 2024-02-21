@@ -1,0 +1,39 @@
+{
+    "tomcat": {
+        "setup": true,
+        "pcname": "testpc",
+        "filestructure": {
+            "~": {
+                "type": "folder",
+                "data": {
+                    "within": {
+                        "testfolder1": {
+                            "type": "folder",
+                            "data": {
+                                "within": {}
+                            }
+                        },
+                        "testfolder2": {
+                            "type": "folder",
+                            "data": {
+                                "within": {
+                                    "testfile": {
+                                        "type": "file",
+                                        "data": {
+                                            "filetype": "text",
+                                            "filedata": {
+                                                "0": "This is one line.",
+                                                "1": "This is another",
+                                                "3": "tHiS iS a LiNe GaP!"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

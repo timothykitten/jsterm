@@ -1,0 +1,22 @@
+{
+    "auto-setup": true,
+    "users": {
+        "count": [
+            2,
+            "0001",
+            "0002"
+        ],
+        "data": [
+            {
+                "username": "tomcat",
+                "password": "jaxoisadeV11",
+                "uid": "0001"
+            },
+            {
+                "username": "user",
+                "password": "password",
+                "uid": "0002"
+            }
+        ]
+    }
+}
